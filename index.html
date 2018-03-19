@@ -8,25 +8,25 @@
 		<meta name="author" content="Derrick Lim" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="test-style.css">
   <link rel="import" href="onepage-scroll-master/jquery.onepage-scroll.js">
   <link rel="import" href="onepage-scroll-master/onepage-scroll.css">
   <script>
     $(".main").onepage_scroll({
-          sectionContainer: "section",
+          sectionContainer: "main", //hmmmmmm
           loop: true,
           responsiveFallback: false
         });
   </script>
 </head>
 <body>
-  <div class="main">
-    <section>
-      <h1>Hello World</h1>
-    </section>
-    <section>
-      <p>I'm working w/ GitHub Pages.</p>
-    </section>
+  <div id="illustration"> </div>
+  <div id="about">
+    <h1>Hello World</h1>
+  </div>
+  <div id="resume">
+    <p>I'm working w/ GitHub Pages.</p>
+  </div>
 </body>
 
 
