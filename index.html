@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link rel="import" href="jquery.onepage-scroll.js">
+  <link rel="import" href="onepage-scroll.css">
+  <script>
+    $(".main").onepage_scroll({
+          sectionContainer: "section",
+          loop: true,
+          responsiveFallback: false
+        });
+  </script>
+</head>
 <body>
-  <h1>Hello World</h1>
-  <p>I'm working w/ GitHub Pages.</p>
+  <div class="main">
+    <section>
+      <h1>Hello World</h1>
+    </section>
+    <section>
+      <p>I'm working w/ GitHub Pages.</p>
+    </section>
 </body>
+
+
 </html>
